@@ -64,7 +64,6 @@ function afterCloseSelect(element) {
     .catch(err => {
       togleHidden(loader, true);
       callError();
-      console.log(err);
     });
 }
 // function for change visible of elements
