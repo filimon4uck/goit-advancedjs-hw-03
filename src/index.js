@@ -40,6 +40,7 @@ fetchBreeds()
   .catch(err => {
     togleHidden(loader, true);
     callError();
+    console.log(err);
   });
 
 function afterCloseSelect(element) {
