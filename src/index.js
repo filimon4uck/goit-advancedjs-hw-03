@@ -69,7 +69,7 @@ function afterCloseSelect(element) {
 }
 // function for change visible of elements
 function togleHidden({ classList }, value) {
-  value ? classList.add('hidden') : classList.remove('hidden');
+  value ? classList.add('ss-hide') : classList.remove('ss-hide');
 }
 
 function callError() {
