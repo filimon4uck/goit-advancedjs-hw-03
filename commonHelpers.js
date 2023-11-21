@@ -3,5 +3,5 @@ import{a as u,S as h,i as p}from"./assets/vendor-7822ce3b.js";(function(){const 
             <h2>${o}</h2>
             <p>${c}</p>
             <p><span class="bold-text">Temperament: </span>${e}</p>
-          </div>`}).catch(r=>{n(a,!0),m(),console.log(r)})}function n({classList:t},r){r?t.add("hidden"):t.remove("hidden")}function m(){p.error({message:"Oops! Something went wrong! Try reloading the page!",position:"center"})}
+          </div>`}).catch(r=>{n(a,!0),m(),console.log(r)})}function n({classList:t},r){r?t.add("ss-hide"):t.remove("ss-hide")}function m(){p.error({message:"Oops! Something went wrong! Try reloading the page!",position:"center"})}
 //# sourceMappingURL=commonHelpers.js.map
